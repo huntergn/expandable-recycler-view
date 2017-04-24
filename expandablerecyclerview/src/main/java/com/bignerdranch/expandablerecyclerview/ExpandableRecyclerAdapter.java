@@ -777,7 +777,7 @@ public abstract class ExpandableRecyclerAdapter<P extends Parent<C>, C, PVH exte
      * returns the child position within the child list of the parent.
      */
     @UiThread
-    int getChildPosition(int flatPosition) {
+    public int getChildPosition(int flatPosition) {
         if (flatPosition == 0) {
             return 0;
         }
